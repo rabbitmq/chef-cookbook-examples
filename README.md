@@ -13,6 +13,24 @@ Librarian is used for dependency management.
    used plugins. Configures kernel limits for RabbitMQ via systemd.
 
 
+## Dependencies
+
+Make sure that [Vagrant](https://www.vagrantup.com/), [Virtualbox](https://www.virtualbox.org/) and Ruby 2.x are
+installed, then install Librarian:
+
+```
+gem install librarian-chef
+```
+
+and cookbook dependencies (from the example directory):
+
+```
+librarian-chef install
+```
+
+then use Vagrant as usual.
+
+
 ## License and Copyright
 
 See [LICENSE](./LICENSE).
