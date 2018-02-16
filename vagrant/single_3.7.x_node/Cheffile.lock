@@ -25,8 +25,10 @@ SITE
       compat_resource (>= 12.16.3)
       yum-epel (>= 0.0.0)
 
-PATH
-  remote: ../../../chef-cookbook
+GIT
+  remote: https://github.com/rabbitmq/chef-cookbook.git
+  ref: master
+  sha: 5ff0b28bebc29bccdef8653ba4401bca486c6a4d
   specs:
     rabbitmq (5.6.0)
       dpkg_autostart (>= 0.0.0)
