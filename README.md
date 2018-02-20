@@ -11,6 +11,8 @@ Librarian is used for dependency management.
 
  * [Single 3.7.x node with plugins](./vagrant/single_3.7.x_node): provisions Erlang/OTP 20.x, RabbitMQ 3.7.x and a few commonly
    used plugins. Configures kernel limits for RabbitMQ via systemd.
+ * [Single 3.7.x node on CentOS 7](./vagrant/single_3.7.x_centos_node): same as above but uses CentOS 7.x instead
+   of Ubuntu.
 
 
 ## Dependencies
