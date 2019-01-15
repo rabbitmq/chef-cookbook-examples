@@ -40,7 +40,7 @@ Vagrant.configure("2") do |config|
         # the right thing to do for production environments is delete
         # "guest" and create a new user account with a generated password.
         "loopback_users": [],
-        "enabled_plugins": %w(rabbitmq_stomp rabbitmq_mqtt rabbitmq_amqp1_0)
+        "enabled_plugins": %w(rabbitmq_management rabbitmq_stomp rabbitmq_mqtt rabbitmq_amqp1_0)
       }
     }
   end
