@@ -26,7 +26,7 @@ to pull down the cookbook and start a Vagrant VM.
 The VM exposes [non-standard ports](https://www.rabbitmq.com/networking.html#selinux-ports) to avoid clashes with any services
 that may be running locally:
 
- * 5682 for AMQP 0-9-1 and AMQP 1.0
- * 15682 for HTTP API and management UI
- * 1893 for MQTT
- * 61623 for STOMP
+ * 5692 for AMQP 0-9-1 and AMQP 1.0
+ * 15692 for HTTP API and management UI
+ * 1897 for MQTT
+ * 61627 for STOMP
