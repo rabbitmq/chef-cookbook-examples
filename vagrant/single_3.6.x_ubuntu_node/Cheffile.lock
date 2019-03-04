@@ -1,0 +1,34 @@
+SITE
+  remote: https://supermarket.getchef.com/api/v1
+  specs:
+    build-essential (8.2.1)
+      mingw (>= 1.1)
+      seven_zip (>= 0.0.0)
+    dpkg_autostart (0.2.0)
+    erlang (7.0.0)
+      build-essential (>= 5.0)
+      yum-epel (>= 0.0.0)
+      yum-erlang_solutions (>= 1.0.3)
+    logrotate (2.2.0)
+    mingw (2.1.0)
+      seven_zip (>= 0.0.0)
+    seven_zip (3.1.0)
+      windows (>= 0.0.0)
+    windows (5.2.4)
+    yum-epel (3.3.0)
+    yum-erlang_solutions (2.0.0)
+      yum-epel (>= 0.0.0)
+
+PATH
+  remote: ../../../chef-cookbook
+  specs:
+    rabbitmq (6.0.0)
+      dpkg_autostart (>= 0.0.0)
+      erlang (>= 0.0.0)
+      logrotate (>= 0.0.0)
+      yum-epel (>= 0.0.0)
+      yum-erlang_solutions (>= 0.0.0)
+
+DEPENDENCIES
+  rabbitmq (>= 0)
+
