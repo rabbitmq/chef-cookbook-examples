@@ -1,7 +1,8 @@
-# Single 3.7.x Node Example
+# Single 3.7.x Node and RabbitMQ Erlang Package Example
 
-This provisions Erlang/OTP 21.x, RabbitMQ 3.7.x and a few commonly
-used plugins. Configures kernel limits for RabbitMQ via systemd.
+This provisions Erlang/OTP 21.x via [Debian Erlang packages from team RabbitMQ](https://github.com/rabbitmq/erlang-debian-package),
+RabbitMQ 3.7.x and a few commonly used plugins.
+Configures kernel limits for RabbitMQ via systemd.
 
 ## How to Run It
 
@@ -26,7 +27,7 @@ to pull down the cookbook and start a Vagrant VM.
 The VM exposes [non-standard ports](https://www.rabbitmq.com/networking.html#selinux-ports) to avoid clashes with any services
 that may be running locally:
 
- * 5692 for AMQP 0-9-1 and AMQP 1.0
- * 15692 for HTTP API and management UI
- * 1897 for MQTT
- * 61627 for STOMP
+ * 5682 for AMQP 0-9-1 and AMQP 1.0
+ * 15682 for HTTP API and management UI
+ * 1893 for MQTT
+ * 61623 for STOMP

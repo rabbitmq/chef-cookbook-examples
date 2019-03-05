@@ -1,6 +1,6 @@
 # Single 3.7.x Node Example
 
-This provisions Erlang/OTP 20.x, RabbitMQ 3.7.x and a few commonly
+This provisions Erlang/OTP 21.x, RabbitMQ 3.7.x and a few commonly
 used plugins. Configures kernel limits for RabbitMQ via systemd.
 
 ## How to Run It
