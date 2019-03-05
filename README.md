@@ -11,9 +11,11 @@ The examples currently use [Vagrant](https://www.vagrantup.com) and `chef-solo` 
 
  * [Single 3.7.x node with plugins on Ubuntu 18.04](./vagrant/single_3.7.x_ubuntu_node): provisions Erlang/OTP 21.x, RabbitMQ 3.7.x and a few commonly
    used plugins. Configures kernel limits for RabbitMQ via systemd.
- * [Single 3.7.x node on CentOS 7](./vagrant/single_3.7.x_centos_node): same as above but uses CentOS 7.x instead
-   of Ubuntu.
-
+ * [Single 3.7.x node on CentOS 7](./vagrant/single_3.7.x_centos_node): same as above but uses CentOS 7.x instead of Ubuntu.
+ * [Single 3.7.x node with latest Debian Erlang packages on Ubuntu 18.04](./vagrant/rabbitmq_erlang_3.7.x_ubuntu_node): provisions Erlang/OTP 21.x using team RabbitMQ's Erlang packages,
+   RabbitMQ 3.7.x and a few commonly used plugins. Configures kernel limits for RabbitMQ via systemd.
+ * [Single 3.7.x node with latest zero dependency Erlang RPM package on CentOS 7](./vagrant/rabbitmq_erlang_3.7.x_centos_node):
+   same as above but uses CentOS 7.x instead of Ubuntu.
 
 ## Dependencies
 
