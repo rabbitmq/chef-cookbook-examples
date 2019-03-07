@@ -32,10 +32,8 @@ yum update -y
         }
       },
       "rabbitmq": {
-        "version": "3.7.12",
+        "version": "3.7.13",
 
-        # Note: this will only have an effect in 5.6.0 (currently unreleased).
-        #
         # See https://www.rabbitmq.com/production-checklist.html#resource-limits-file-handle-limit for details.
         "systemd": {
           "limits": {

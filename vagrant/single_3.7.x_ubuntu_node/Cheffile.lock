@@ -14,7 +14,7 @@ SITE
       seven_zip (>= 0.0.0)
     seven_zip (3.1.0)
       windows (>= 0.0.0)
-    windows (5.2.4)
+    windows (5.3.0)
     yum-epel (3.3.0)
     yum-erlang_solutions (2.0.0)
       yum-epel (>= 0.0.0)
@@ -22,9 +22,9 @@ SITE
 GIT
   remote: https://github.com/rabbitmq/chef-cookbook/
   ref: v5.x
-  sha: fae8263551feacec7ae1491e07ee9fd477e91d7b
+  sha: 97ef1f6a3c30cedc06e3572292b9132aacc7880f
   specs:
-    rabbitmq (5.6.4)
+    rabbitmq (5.7.0)
       dpkg_autostart (>= 0.0.0)
       erlang (>= 0.0.0)
       logrotate (>= 0.0.0)
