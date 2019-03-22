@@ -28,6 +28,10 @@ yum update -y
       "rabbitmq": {
         "version": "3.7.13",
 
+        "erlang": {
+          "enabled": true
+        },
+
         # See https://www.rabbitmq.com/production-checklist.html#resource-limits-file-handle-limit for details.
         "systemd": {
           "limits": {
