@@ -22,9 +22,9 @@ SITE
 GIT
   remote: https://github.com/rabbitmq/chef-cookbook/
   ref: v5.x
-  sha: 97ef1f6a3c30cedc06e3572292b9132aacc7880f
+  sha: b9f283d0e61304ad164e860de45a14662cb87324
   specs:
-    rabbitmq (5.7.0)
+    rabbitmq (5.7.5)
       dpkg_autostart (>= 0.0.0)
       erlang (>= 0.0.0)
       logrotate (>= 0.0.0)
