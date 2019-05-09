@@ -28,7 +28,7 @@ yum update -y
       "erlang": {
         "install_method": "esl",
         "esl": {
-          "version": "21.2.6-1"
+          "version": "21.3.7-1"
         }
       },
       "rabbitmq": {
